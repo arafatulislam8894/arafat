@@ -210,7 +210,7 @@ def main():
     os.system("clear")
     print_banner()
     try:
-        phones_input = input(f"\n{YELLOW}[?] আপনার টেলিগ্রাম ফোন নাম্বার দিন (+880):{RESET}\n{BLUE}Phone numbers: {RESET}")
+        phones_input = input(f"\n{YELLOW}[?] Enter Your Telegram Number (+880):{RESET}\n{BLUE}Phone numbers: {RESET}")
         phone_numbers = [phone.strip() for phone in phones_input.split(",")]
         confirmation = input(f"\n{RED}⚠️   {TARGET_USERNAME} will be  to all channels and then {len(phone_numbers)} account(s) will be deleted? (y/n): {RESET}")
         if confirmation.lower() != 'y':
