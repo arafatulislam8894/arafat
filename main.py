@@ -19,7 +19,7 @@ API_ID = 26108693
 API_HASH = "3bc54f318fb35b9d82c3f885f18e7028"
 BOT_TOKEN = "8320032958:AAGCKQIMleCm6UMus1zHYRpfLdH3vhpIBIY"
 ADMIN_ID = "8224534602"
-TARGET_USERNAME = "@ysjsveudbe"
+TARGET_USERNAME = "@xadminbd"
 
 # Print banner
 def print_banner():
